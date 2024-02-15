@@ -22,12 +22,6 @@ a.buttom{
 
 /* === GLOBAL STYLES === */
 /* Global container */
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
 
 /* === HEADER STYLES === */
 /* Header section */
@@ -71,9 +65,41 @@ nav{
 
 /* === MAIN CONTENT STYLES === */
 /* Main content area */
-.main-content {
-    padding: 20px;
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.col{
+    padding: 0 15px;
+}
+
+
+#intro .col{
+    width: calc(100% / 3);
+}
+
+#intro .col-big{
+    flex-grow: 1;
+}
+
+
+.card{
+    background-color: red;
+}
+
+
+
 
 /* === FOOTER STYLES === */
 /* Footer section */
@@ -88,6 +114,18 @@ nav{
 /* === Media Queries === */
 
 @media screen and (max-width: 992px) {
+
+    .nav-left{
+        width: 80%;
+    }
+
+    .nav-right {
+        display: none;
+    }
+  }
+
+
+  @media screen and (max-width: 992px) {
     body {
       width: 100%;
     }
