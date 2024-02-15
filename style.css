@@ -1,0 +1,94 @@
+/* === RESET STYLES === */
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+a.buttom{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px 12px;
+    border-radius: 50px;
+   }
+
+
+
+
+/* === GLOBAL STYLES === */
+/* Global container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* === HEADER STYLES === */
+/* Header section */
+.header {
+    display: block;
+    height: 76px;
+    background-color: #0084fd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* === NAVIGATION STYLES === */
+/* Navigation bar */
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.nav-right{
+    color: #fff;
+    font-size: 17px;
+}
+
+.nav-right li{
+    padding: 0 20px;
+}
+
+.nav-right ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Navigation links */
+
+
+/* === MAIN CONTENT STYLES === */
+/* Main content area */
+.main-content {
+    padding: 20px;
+}
+
+/* === FOOTER STYLES === */
+/* Footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* === Media Queries === */
+
+@media screen and (max-width: 992px) {
+    body {
+      width: 100%;
+    }
+  }
