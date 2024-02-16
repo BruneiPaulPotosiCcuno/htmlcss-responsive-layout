@@ -33,7 +33,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -44,6 +44,8 @@ header{
     align-items: center;
     max-width: 1190px;
     margin: 0 auto;
+    padding: 0 20px;
+    
 }
 
 /* === NAVIGATION STYLES === */
@@ -54,7 +56,7 @@ nav{
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    margin: 0 20px;
+    padding: 0 1px;
 }
 
 .nav-right{
@@ -79,12 +81,13 @@ nav{
 /* Main content area */
 
 .container{
-    max-width: 1170px;
-    padding: 0 10px;
+    max-width: 1190px;
+    padding: 0  20px;
     margin: 0 auto;
 }
 
 .row{
+    margin-top: 20px;
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
@@ -102,17 +105,58 @@ nav{
 
 #intro .col{
     width: calc(100% / 3);
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
+
 
 .card-big{
     background-color: #b5ddff;
-    padding: 10px;
+    padding: -10px;
     border-radius: 14px;
-    
-    
+    display: flex;
 }
 
+.demo-left{
+    width: 50%;
+}
+
+.contain-demo h1{
+    padding: 20px;
+    font-size: 24px;
+    color: #0084fd;
+}
+
+.contain-demo p{
+    padding: 15px;
+    font-size: 18px;
+    color: #526574;
+    font-weight: 800;
+}
+
+.contain-demo button{
+    background-color: #0084fd;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 9px 40px;
+    border-radius: 20px;
+    margin-left: 15px;
+    border: none;
+}
+
+.demo-right{
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.phone{
+    height: 270px;
+    display: flex;
+}
 
 .card-small{
     background-color: #b5ddff;
@@ -157,8 +201,8 @@ nav{
 
 @media screen and (max-width: 992px) {
 
-    .nav-left{
-        width: 80%;
+    .header{
+        width: 100%;
     }
 
     .nav-right {
