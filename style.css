@@ -44,7 +44,7 @@ header{
     align-items: center;
     max-width: 1190px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 35px;
     
 }
 
@@ -74,29 +74,33 @@ nav{
     text-align: center;
 }
 
+
 /* Navigation links */
 
 
 /* === MAIN CONTENT STYLES === */
 /* Main content area */
 
-.container{
+.container-intro{
     max-width: 1190px;
     padding: 0  20px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .row{
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
     flex-grow: 1;
+    margin-bottom: -25px;
 }
 
 
 .col{
-    padding: 0 10px;
+    padding: 0 20px;
+    
 }
 
 #intro .col-big{
@@ -138,7 +142,7 @@ nav{
     color: #ffffff;
     font-size: 18px;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 71px;
     padding: 9px 40px;
     border-radius: 20px;
     margin-left: 15px;
@@ -184,6 +188,114 @@ nav{
     font-weight: 800;
 }
 
+/* plans */
+
+#planning{
+    background-color: #9792e4;
+    margin: 10px;
+}
+
+#planning .col{
+    width: calc(100% / 2 - 160px);
+    margin-bottom: 64px;
+    margin-top: 130px;
+}
+
+.container-planning{
+    max-width: 1190px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.row-pla{
+    margin-top: 50px;
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-2{
+    height: 210px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.card-small-plan{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.card-small-plan .item{
+    font-size: 75px;
+    color: #0084fd;
+    padding: 15px;
+}
+
+.card-small-plan h1{
+    padding: 10px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.card-small-plan p{
+    padding: 13px 20px 0 20px ;
+    font-size: 17px;
+    color: #0d0d0d;
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-small-plan button{
+    background-color: #9792e4;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding: 14px;
+    border-radius: 100%;
+    border: none;
+}
+
+.card-small-plan .item-black{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.card-small-plan-1{ 
+    text-align: start;
+}
+
+.plan-1{
+    height: 350px;
+    display: flex;
+    
+}
+
+.card-small-plan-1 h1{
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+.card-small-plan-1 p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: start;
+    line-height: 25px;
+}
+
+/* PARTNERS */
+
 
 
 
@@ -199,10 +311,22 @@ nav{
 
 /* === Media Queries === */
 
+
+@media screen and (max-width: 1200px) {
+    .menu-bar{
+        display:none;
+    }
+    
+  }
+
 @media screen and (max-width: 992px) {
 
     .header{
         width: 100%;
+    }
+
+    .nav-right {
+        display: none;
     }
 
     .nav-right {
