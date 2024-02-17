@@ -295,7 +295,14 @@ nav{
 }
 
 /* PARTNERS */
+#patner .col{
+    margin-bottom: 50px;
+    display: flex;
+}
 
+.row-pat{
+    width: calc(100%)
+}
 
 
 
