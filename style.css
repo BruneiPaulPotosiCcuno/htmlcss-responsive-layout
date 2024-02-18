@@ -295,16 +295,79 @@ nav{
 }
 
 /* PARTNERS */
-#patner .col{
-    margin-bottom: 50px;
+
+.head-pat{
+    max-width: 1190px;
+    padding: 0 205px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.pat-contain * {
+    padding: 10px;
+    text-align: center;
+}
+
+.pat-contain h3{
+    font-size: 19px;
+    color: #121212;
+}
+
+.pat-contain h4{
+    font-size: 40px;
+    color: #9792e4;
+}
+
+.pat-contain p{
+    font-size: 18px;
+    color: #121212;
+}
+
+
+.container-patner{
+    background-color: #9792e4;
     display: flex;
+    max-width: 1190px;
+    padding: 0 20px;
+    margin: 30px auto;
+    border-radius: 30px;
 }
 
-.row-pat{
-    width: calc(100%)
+
+.card-test{
+    width: 25%;
 }
 
+.text-card-test{
+    width: 75%;
+}
 
+.man-1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px 10px;
+}
+
+.marks{
+    font-size: 20px;
+    
+}
+
+.text-card-test p{
+    color: white;
+    font-size: 20px;
+    padding-top: 55px;
+}
+
+.text-card-test h2{
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+    display: flex;
+    text-align: center;
+    
+}
 
 /* === FOOTER STYLES === */
 /* Footer section */
