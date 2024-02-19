@@ -192,7 +192,6 @@ nav{
 
 #planning{
     background-color: #9792e4;
-    margin: 10px;
 }
 
 #planning .col{
@@ -627,14 +626,13 @@ nav{
 /* === Media Queries === */
 
 
-@media screen and (max-width: 1200px) {
+
+
+@media screen and (max-width: 992px) {
+
     .menu-bar{
         display:none;
     }
-    
-  }
-
-@media screen and (max-width: 992px) {
 
     .header{
         width: 100%;
@@ -647,11 +645,77 @@ nav{
     .nav-right {
         display: none;
     }
-  }
 
-
-  @media screen and (max-width: 992px) {
     body {
-      width: 100%;
+        width: 100%;
+      }
+
+      /* === cards === */
+
+    col {
+        display: block;
     }
-  }
+
+    .card-big{
+        display: block;
+    }
+
+    .demo-left{
+        width: 90%;
+    }
+
+    .card-small{
+        padding-bottom: 210px;
+    }
+
+    .row-pla{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #planning .col {
+        width: 50%;
+        
+    }
+
+
+    .plan-2{
+        height: 500px;
+        width: 500px;
+    }
+
+    #planning .col {
+        width: 100%;
+    }
+
+    /* === patners === */
+
+    .head-pat{
+        padding: 0px 10px;
+    }
+
+    .pat-contain p {
+        font-size: 27px;
+    }
+
+    #patner {
+        margin: 50px 30px;
+    }
+
+    #benefits .col-bene{
+   
+        margin-bottom: 10px;
+    }
+    
+
+    #about-us .col {
+        width: calc(100% / 4);
+        margin-bottom: 10px;
+    }
+
+    }
+
+
+
